@@ -1,0 +1,121 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1b1b1b; /* fundo preto */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFD700; /* texto dourado padrão */
+}
+
+.container {
+    width: 360px;
+    margin: 80px auto;
+    background: #1a1a1a;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    color: #FFD700;
+    margin-bottom: 20px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 14px;
+    color: #e6c200; /* dourado mais suave */
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #FFD700; /* dourado */
+}
+
+input {
+    width: 100%;
+    padding: 9px;
+    border-radius: 5px;
+    border: 1px solid #FFD700; /* borda dourada */
+    background: #000; /* fundo do input preto */
+    color: #FFD700; /* texto dourado */
+}
+
+input:focus {
+    outline: none;
+    border-color: #e6c200; /* dourado suave ao focar */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #FFD700; /* botão dourado */
+    border: none;
+    border-radius: 5px;
+    color: #000; /* texto preto no botão */
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e6c200; /* dourado mais escuro ao passar o mouse */
+}
+
+a{
+	display:block;
+	margin: 12px 0;
+	padding: 12px 0;
+	background: #FFD700;
+	color: #000;
+	text-decoration: none;
+	border-radius: 6px;
+	font-weight: bold;
+	transition: background 0.3s ease;
+	text-align: center;
+	
+	
+}/*Botoes*/
+
+a.hover{
+	background: #e6c200;
+	} /*passar mouse*/
+
+.subtitulo {
+    margin-bottom: 30px; /* mais espaço entre subtítulo e links */
+    color: #e6c200;
+    font-size: 14px;
+    text-align: center;
+}
+
+.voltar {
+    display: block;
+    margin: 12px 0;
+    padding: 12px 0;
+    text-align: center;
+    margin-top: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000; /* link preto */
+  	cursor: pointer;
+  	transition:0.3s;
+  	}
+
+.voltar:hover {
+	background:#e6c200;
+    color: #000; /* muda para dourado suave ao passar o mouse */
+}
