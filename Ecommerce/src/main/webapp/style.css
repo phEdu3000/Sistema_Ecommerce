@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +22,6 @@ body {
     text-align: center;
 }
 
-
 h1 {
     text-align: center;
     color: #FFD700;
@@ -32,11 +32,11 @@ h1 {
     text-align: center;
     font-size: 14px;
     color: #e6c200; /* dourado mais suave */
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* mais espaço entre subtítulo e links */
 }
 
 .campo {
-    margin-bottom: 15px;
+    margin-bottom: 40px; /* aumentado o espaço entre as perguntas */
 }
 
 label {
@@ -76,30 +76,21 @@ button:hover {
     background: #e6c200; /* dourado mais escuro ao passar o mouse */
 }
 
-a{
-	display:block;
-	margin: 12px 0;
-	padding: 12px 0;
-	background: #FFD700;
-	color: #000;
-	text-decoration: none;
-	border-radius: 6px;
-	font-weight: bold;
-	transition: background 0.3s ease;
-	text-align: center;
-	
-	
-}/*Botoes*/
-
-a.hover{
-	background: #e6c200;
-	} /*passar mouse*/
-
-.subtitulo {
-    margin-bottom: 30px; /* mais espaço entre subtítulo e links */
-    color: #e6c200;
-    font-size: 14px;
+a {
+    display: block;
+    margin: 12px 0;
+    padding: 12px 0;
+    background: #FFD700;
+    color: #000;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease;
     text-align: center;
+}
+
+a.hover {
+    background: #e6c200; /* passar mouse */
 }
 
 .voltar {
@@ -111,11 +102,11 @@ a.hover{
     text-decoration: none;
     font-size: 15px;
     color: #000; /* link preto */
-  	cursor: pointer;
-  	transition:0.3s;
-  	}
+    cursor: pointer;
+    transition: 0.3s;
+}
 
 .voltar:hover {
-	background:#e6c200;
+    background: #e6c200;
     color: #000; /* muda para dourado suave ao passar o mouse */
 }
