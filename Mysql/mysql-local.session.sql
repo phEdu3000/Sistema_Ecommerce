@@ -24,4 +24,3 @@ foreign key (id_cliente) references cliente(id)
 
 INSERT INTO produtos (nome, preco, quantidade) VALUES ('Teste Camisa', 99.9, 10);
 SELECT * FROM produtos;
-SELECT * FROM cliente;
